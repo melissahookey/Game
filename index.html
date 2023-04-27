@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Welcome to my SICK game</h1>
+      <h3>Choose your character!</h3>
+    </div>
+    <div class="interface">
+      <a href="#" onclick="Manager.setGameStart('char 1')">
+        <img src="..." alt="char 1" />
+        <h3>Character 1</h3>
+        <p>Character description goes here</p>
+      </a>
+      <a href="#" onclick="Manager.setGameStart('char 2')">
+        <img src="..." alt="char 2" />
+        <h3>Character 2</h3>
+        <p>Character description goes here</p>
+      </a>
+      <a href="#" onclick="Manager.setGameStart('char 3')">
+        <img src="..." alt="char 3" />
+        <h3>Character 3</h3>
+        <p>Character description goes here</p>
+      </a>
+      <a href="#" onclick="Manager.setGameStart('char 4')">
+        <img src="..." alt="char 4" />
+        <h3>Character 4</h3>
+        <p>Character description goes here</p>
+      </a>
+    </div>
+    <div class="actions"></div>
+    <div class="arena"></div>
+    <div class="enemy"></div>
+
+    <script src="./js/enemy.js"></script>
+    <script src="./js/manager.js"></script>
+    <script src="./js/player.js"></script>
+  </body>
+</html>
